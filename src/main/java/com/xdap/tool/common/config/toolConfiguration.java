@@ -1,4 +1,4 @@
-package com.xdap.zhenghao.demo.common.config;
+package com.xdap.tool.common.config;
 
 import com.xdap.api.moudle.custom.AllowUrlManage;
 import org.springframework.stereotype.Component;
@@ -14,7 +14,7 @@ import java.util.Set;
  * @date 2022/4/21 17:06
  */
 @Component
-public class whitelistConfiguration implements AllowUrlManage {
+public class toolConfiguration implements AllowUrlManage {
 
     @Override
     public Set<String> getCustomAllowUrls() {

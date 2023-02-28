@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zhenghao</groupId>
-    <artifactId>zhenghao-tool</artifactId>
+    <artifactId>tool-kit</artifactId>
     <version>1.0</version>
     <name>demo</name>
     <description>Demo project for Spring Boot</description>

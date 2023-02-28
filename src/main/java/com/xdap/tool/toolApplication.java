@@ -1,4 +1,4 @@
-package com.xdap.zhenghao.demo;
+package com.xdap.tool;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableScheduling
 @EnableTransactionManagement
 @ComponentScan(basePackages = {"com.definesys.mpaas", "com.xdap.*"})
-public class DemoApplication {
+public class toolApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(toolApplication.class, args);
     }
 
 }
